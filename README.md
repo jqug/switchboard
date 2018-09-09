@@ -11,7 +11,7 @@ It can be used with a single switch (auto-scan), two switches (manual scan) or e
 The live app on the Play store can be installed [here](https://play.google.com/store/apps/details?id=ug.air.switchaccess&hl=en).
 
 <a href="https://play.google.com/store/apps/details?id=ug.air.switchaccess" target="_blank">
-  <img src="https://jqug.github.io/switchboard/images/google-play-badge.png" height="80"/>
+  <img src="https://jqug.github.io/switchboard/images/google-play-badge.png" />
 </a>
 
 ### What are the limitations?
