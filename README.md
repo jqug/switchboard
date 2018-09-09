@@ -1,4 +1,4 @@
-# Switchboard: Assistive Disabled Switch Access for Androi
+# Switchboard: Assistive Disabled Switch Access for Android
 
 Switchboard is for Android users with a physical disability, motor impairment or limited dexterity that makes it difficult for them to use a touchscreen. As long as they have the ability to physically operate a switch – almost any USB or Bluetooth device with some kind of button on it will do – then they can use it to completely control their device, including browsing the web and sending messages. Switchboard is simpler and faster to use than the built in Android switch accessibility functions, and is particularly good for entering text.
 
