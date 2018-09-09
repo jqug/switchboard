@@ -1,7 +1,3 @@
-<a href="https://play.google.com/store/apps/details?id=ug.air.switchaccess" target="_blank">
-  <img src="https://jqug.github.io/switchboard/images/google-play-badge.png" height="80"/>
-</a>
-
 Switchboard is an accessibility app for Android that allows users with a physical disability, motor impairment or limited dexterity to control their device with one or more switches.
 
 <video style="width:100%" controls>
@@ -14,7 +10,9 @@ It can be used with a single switch (auto-scan), two switches (manual scan) or e
 
 The live app on the Play store can be installed [here](https://play.google.com/store/apps/details?id=ug.air.switchaccess&hl=en).
 
-![](https://jqug.github.io/switchboard/images/google-play-badge.png)
+<a href="https://play.google.com/store/apps/details?id=ug.air.switchaccess" target="_blank">
+  <img src="https://jqug.github.io/switchboard/images/google-play-badge.png" height="80"/>
+</a>
 
 ### What are the limitations?
 
