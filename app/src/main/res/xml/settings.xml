@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<SwitchPreference
+    android:defaultValue="true"
+    android:key="prefSendReport"
+    android:title="System enabled" >
+</SwitchPreference>
+
+<Preference
+    android:title="Re-run setup"
+    android:summary="Change your switch device and scanning speeds.">
+
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="com.package.name"
+        android:targetClass="com.package.name.ActivityName"
+        />
+</Preference>
+
+
+<PreferenceCategory android:title="Keyboard" >
+    <SwitchPreference
+        android:title="Optimised layout"
+        android:defaultValue="false"
+        android:summary="Use an alternative keyboard layout which is quicker for switch text entry."
+        android:key="prefUsername"/>
+
+    <SwitchPreference
+        android:title="Wait for switch"
+        android:defaultValue="false"
+        android:summary="Wait for a switch press before starting to scan the keyboard."
+        android:key="prefUsername"/>
+
+</PreferenceCategory>
+
+<PreferenceCategory android:title="Scanning" >
+    <EditTextPreference
+        android:title="Scan style"
+        android:numeric="integer"
+        android:defaultValue="false"
+        android:summary="Select scanning method."
+        android:key="prefUsername"/>
+
+    <EditTextPreference
+        android:title="Halving steps"
+        android:numeric="integer"
+        android:defaultValue="0"
+        android:summary="For larger screens, first use the switch to focus on half of the area."
+        android:key="prefUsername"/>
+
+    <SwitchPreference
+        android:title="Highlight targets"
+        android:defaultValue="false"
+        android:summary="Show rectangles around all the places that can be tapped on the current screen."
+        android:key="prefUsername"/>
+
+</PreferenceCategory>
+
+
+    <Preference
+        android:title="Rate/review"
+        android:summary="Help improve the system by leaving feedback.">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.package.name"
+            android:targetClass="com.package.name.ActivityName"
+            />
+    </Preference>
+
+</PreferenceScreen>

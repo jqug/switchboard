@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:preference="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="Enable Switchboard" android:key="isServiceEnabled" android:defaultValue="true">
+    </SwitchPreference>
+
+    <Preference android:title="Re-run switch setup"
+        android:summary="Configure switches and scanning speeds, and activate any necessary system settings."
+        android:key="rerun_setup" />
+
+    <PreferenceCategory android:title="Screen scanning preferences" >
+    </PreferenceCategory>
+
+    <ug.air.switchaccess.AutoSummaryListPreference android:title="Screen scan type"
+        android:key="screen_scan_type"
+        android:defaultValue="auto"
+        android:entries="@array/scan_type"
+        android:entryValues="@array/scan_type_values"
+        />
+
+    <SwitchPreference android:title="Show helper panel"
+        android:key="show_helper_panel"
+        android:summary="While scanning, show a small panel in the top left with buttons such as Back and Home."
+        android:defaultValue="true">
+    </SwitchPreference>
+
+    <MultiSelectListPreference android:title="Helper panel buttons"
+        android:summary="Which buttons to include in the helper panel."
+        android:entries="@array/helper_buttons"
+        android:entryValues="@array/helper_buttons_values"
+        android:defaultValue="@array/helper_buttons_defaults"
+        android:key="helper_buttons_visible"/>
+
+    <ug.air.switchaccess.NumberPickerPreference
+        android:title="Number of cycles"
+        android:key="max_scan_cycles"
+        android:summary="How many times to scan without a switch press before cancelling."
+        android:defaultValue="2"
+        preference:maxValue="10"
+        preference:minValue="1"
+        preference:wrapSelectorWheel="false"/>
+
+    <ug.air.switchaccess.NumberPickerPreference
+        android:title="Crosshairs line thickness"
+        android:key="crosshairs_line_thickness"
+        android:defaultValue="2"
+        preference:maxValue="5"
+        preference:minValue="1"
+        preference:wrapSelectorWheel="false"/>
+
+    <!--ug.air.switchaccess.NumberPickerPreference
+        android:title="Speedup factor in empty space"
+        android:key="empty_space_speedup_factor"
+        android:summary="Scan speed in areas of the screen where there's nothing to click on (1 = normal speed)."
+        android:defaultValue="1"
+        preference:maxValue="5"
+        preference:minValue="1"
+        preference:wrapSelectorWheel="false"/-->
+
+    <ug.air.switchaccess.MultiAppSelectPreference android:title="Don't scan on certain apps"
+        android:summary="Let particular apps handle the switch presses themselves."
+        android:key="suppressed_apps" >
+    </ug.air.switchaccess.MultiAppSelectPreference>
+
+    <!--SwitchPreference android:title="Highlight clickable areas"
+        android:key="show_clickable_boxes"
+        android:summary="While scanning, draw rectangles highlighting the areas which can be clicked on."
+        android:defaultValue="true">
+    </SwitchPreference-->
+
+    <PreferenceCategory android:title="Keyboard preferences" >
+    </PreferenceCategory>
+
+    <ug.air.switchaccess.AutoSummaryListPreference android:title="Keyboard scan type"
+        android:key="keyboard_scan_type"
+        android:defaultValue="auto"
+        android:entries="@array/scan_type"
+        android:entryValues="@array/scan_type_values"
+        />
+
+    <ug.air.switchaccess.AutoSummaryListPreference android:title="Keyboard layout"
+        android:key="keyboard_layout"
+        android:defaultValue="@string/keyboard_layout_default"
+        android:entries="@array/keyboard_layout"
+        android:entryValues="@array/keyboard_layout_values"
+        />
+
+    <!--ListPreference android:title="Scan mode" android:entries="@array/keyboard_scan_mode" android:entryValues="@array/keyboard_scan_mode_values" android:key="keyboardScanMode" android:summary="How should keys be selected" />
+
+    <ug.air.switchaccess.NumberPickerPreference android:title="Font size" android:defaultValue="12"
+        preference:maxValue="20"
+        preference:minValue="8"
+        preference:wrapSelectorWheel="false"/>
+
+    <ListPreference
+        android:title="Long press function"
+        android:summary="What to do if switch is held down for 3 seconds or more."
+        android:entries="@array/keyboard_long_press_function"
+        android:entryValues="@array/keyboard_long_press_function_values"
+        android:defaultValue="nothing" /-->
+
+    <PreferenceCategory android:title="Other" >
+    </PreferenceCategory>
+
+    <Preference android:title="Rate and give feedback"
+        android:summary="Help improve Switchboard and request features."
+        android:key="give_feedback" />
+
+
+</PreferenceScreen>

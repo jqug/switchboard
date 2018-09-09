@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "ug.air.switchaccess"
+        minSdkVersion 22
+        targetSdkVersion 27
+        versionCode 7
+        versionName '1.6'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    //compile 'com.robertlevonyan.view:MaterialChipView:1.0.0'
+    //implementation 'com.android.support:design:27.0.3'
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.github.ybq:Android-SpinKit:1.1.0'
+    implementation 'com.google.code.gson:gson:2.8.1'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.github.apl-devs:appintro:v4.2.3'
+
+    implementation "com.mikepenz:materialize:1.1.2@aar"
+    implementation "com.android.support:appcompat-v7:27.1.1"
+
+    //testCompile 'junit:junit:4.12'
+    //androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    //    exclude group: 'com.android.support', module: 'support-annotations'
+    //})
+}

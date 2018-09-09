@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/button_divider"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <Space
+         android:layout_width="match_parent"
+         android:layout_height="250dp" />
+
+        <ImageView
+            android:id="@+id/backSoftButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/translucent_button_shape"
+            android:padding="10sp"
+            android:src="@drawable/ic_arrow_back_white_36dp" />
+
+        <ImageView
+            android:id="@+id/homeButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/translucent_button_shape"
+            android:padding="10dp"
+            android:src="@drawable/ic_home_white_36dp" />
+
+        <ImageView
+            android:id="@+id/notificationsButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/translucent_button_shape"
+            android:padding="10dp"
+            android:src="@drawable/ic_notifications_white_36dp" />
+
+        <LinearLayout
+            android:id="@+id/scrollButtonsView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/scrollUpButton"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/translucent_button_shape"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/ic_expand_less_white_36dp" />
+
+            <Button
+                android:id="@+id/scrollLabel"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="@drawable/translucent_button_shape"
+                android:padding="0dp"
+                android:text="Scroll"
+                android:clickable="false"
+                android:textAllCaps="false"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/scrollDownButton"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/translucent_button_shape"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/ic_expand_more_white_36dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

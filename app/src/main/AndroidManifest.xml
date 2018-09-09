@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ug.air.switchaccess">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CAN_REQUEST_ENHANCED_WEB_ACCESSIBILITY" />
+
+    <application
+        android:icon="@drawable/roger_icon"
+        android:label="Switchboard">
+        <service
+            android:name=".SwitchAccessibilityService"
+            android:label="Switchboard"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/switch_accessibility_service" />
+        </service>
+        <service
+            android:name=".SwitchIME"
+            android:label="Switchboard"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/switch_input_method" />
+        </service>
+
+        <activity android:name=".IntroActivity"
+            android:icon="@drawable/roger_icon"
+            android:theme="@style/AppIntroTheme" >
+
+        </activity>
+
+        <activity
+            android:name=".SwitchboardPreferencesActivity"
+            android:icon="@drawable/roger_icon">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WizardSwitchSetup"></activity>
+        <activity android:name=".WizardSystemSettings"></activity>
+        <activity android:name=".WizardPointScan"></activity>
+        <activity android:name=".WizardKeyboard"></activity>
+        <activity android:name=".WizardFinished"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="keyboard_scan_mode">
+        <item>Wait for switch press, then begin scanning</item>
+        <item>Scan continuously whenever keyboard is visible</item>
+    </string-array>
+
+    <string-array name="keyboard_scan_mode_values">
+        <item>wait</item>
+        <item>continuous</item>
+    </string-array>
+
+
+    <string-array name="keyboard_layout">
+        <item>QWERTY</item>
+        <item>Layout optimised for switch entry (keys positioned so that common letters are easier to access)</item>
+    </string-array>
+
+
+    <string-array name="keyboard_layout_values">
+        <item>qwerty</item>
+        <item>optimised</item>
+    </string-array>
+
+    <string-array name="helper_buttons">
+        <item>Back</item>
+        <item>Home</item>
+        <item>Notifications</item>
+        <item>Scroll buttons</item>
+    </string-array>
+
+    <string-array name="helper_buttons_values">
+    <item>back</item>
+    <item>home</item>
+    <item>notifications</item>
+    <item>scroll</item>
+    </string-array>
+
+    <string-array name="helper_buttons_defaults">
+        <item>back</item>
+        <item>home</item>
+        <item>scroll</item>
+    </string-array>
+
+    <string-array name="keyboard_long_press_function">
+        <item>Do nothing</item>
+        <item>Press the enter key</item>
+        <item>Hide the keyboard</item>
+    </string-array>
+
+    <string-array name="keyboard_long_press_function_values">
+        <item>nothing</item>
+        <item>enter</item>
+        <item>hide</item>
+    </string-array>
+
+    <string-array name="scan_type">
+        <item>Auto scan (one switch)</item>
+        <item>Manual scan (two switches)</item>
+    </string-array>
+
+    <string-array name="scan_type_values">
+        <item>auto</item>
+        <item>manual</item>
+    </string-array>
+
+
+    <string-array name="switch_functions">
+        <item>Selects Item</item>
+        <item>Moves To Next Item</item>
+        <item>Home</item>
+        <item>Back</item>
+        <item>Scroll Down</item>
+        <item>Scroll Up</item>
+    </string-array>
+
+</resources>

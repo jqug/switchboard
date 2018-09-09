@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Switchboard</string>
+    <string name="back_button">&#8617;</string>
+    <string name="home_button">&#8962;</string>
+    <string name="recent_button">&#9633;</string>
+    <string name="notifications_button">&#9633;</string>
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_en_GB">English (United Kingdom)</string>
+    <string name="service_description">Allows a switch to be used to select points on the screen and interact with apps.</string>
+    <string name="wizard_setup_switch_title">Set up your switch</string>
+    <string name="wizard_setup_switch_intro">Get set up with one or more switches. These could be on any connected USB or Bluetooth device. If you don\'t have a hardware switch and just want to test this out, then almost anything with a button will do; for example, the volume control buttons or the clicker on a pair of earphones could be used.</string>
+    <string name="wizard_setup_switch_listening">Press your switch now&#8230;</string>
+    <string name="wizard_setup_switch_done">Next</string>
+    <string name="wizard_setup_switch_add">Add switch</string>
+    <string name="wizard_setup_switch_clear">Clear</string>
+    <string name="wizard_setup_permissions_title">System settings</string>
+    <string name="wizard_setup_permissions_explanation">Some settings have to be enabled for the system to work. These can be changed later at any time.</string>
+    <string name="wizard_setup_permissions_settings_count">1 of 3</string>
+    <string name="wizard_setup_permissions_allow_service">Start the Switchboard service</string>
+    <string name="wizard_setup_permissions_allow_service_explanation">This service reacts to you pressing the switch, and enables you to select items on the screen.</string>
+    <string name="wizard_setup_permissions_enable_keyboard">Enable the Switchboard keyboard</string>
+    <string name="wizard_setup_permissions_enable_keyboard_explanation">This special keyboard is optimised for switch access, making text entry significantly easier.</string>
+    <string name="wizard_setup_permissions_select_keyboard">Select the Switchboard keyboard</string>
+    <string name="wizard_setup_permissions_select_keyboard_explanation">This sets the Switch Access keyboard to be used by default.</string>
+    <string name="wizard_setup_permissions_after_enabling">After enabling, press the back button to return here.</string>
+    <string name="wizard_setup_permissions_button_text">Enable setting</string>
+    <string name="wizard_point_scan_title">Try point scanning</string>
+    <string name="wizard_keyboard_scan_title">Try keyboard mode</string>
+    <string name="wizard_finished_title">Setup complete</string>
+    <string name="keyboard_layout_default">qwerty</string>
+    <string name="pref_wizard_progress">pref_wizard_progress</string>
+    <string name="wizard_step_start">wizard_step_start</string>
+    <string name="wizard_step_complete">wizard_step_complete</string>
+    <string name="wizard_step_switchsetup">wizard_step_switchsetup</string>
+    <string name="wizard_step_keyboardsetup">wizard_step_keyboardsetup</string>
+    <string name="wizard_step_pointscansetup">wizard_step_pointscansetup</string>
+    <string name="wizard_step_systemsettings">wizard_step_systemsettings</string>
+    <string name="title_activity_onboarding">OnboardingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
