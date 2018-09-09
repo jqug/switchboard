@@ -8,8 +8,7 @@ The live app on the Play store can be installed [here](https://play.google.com/s
 
 ### What are the limitations?
 
-* Android doesn’t currently allow accessibility services to click on everything.
-* Most native apps work fine, but some may have features that can’t be accessed.
+* Android doesn’t currently allow accessibility services to click on everything. Most native apps work fine, but some may have features that can’t be accessed, especially games.
 * Switchboard enables users to tap and scroll with a switch, but not currently to swipe or long-press.
 * Devices are all a bit different, so in case of glitches please leave feedback and we'll try to make sure it works on yours.
 
