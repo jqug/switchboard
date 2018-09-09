@@ -1,10 +1,16 @@
-# Switchboard: Assistive Disabled Switch Access for Android
+Switchboard is an accessibility app for Android that allows users with a physical disability, motor impairment or limited dexterity to control their device with one or more switches.
 
-Switchboard is for Android users with a physical disability, motor impairment or limited dexterity that makes it difficult for them to use a touchscreen. As long as they have the ability to physically operate a switch – almost any USB or Bluetooth device with some kind of button on it will do – then they can use it to completely control their device, including browsing the web and sending messages. Switchboard is simpler and faster to use than the built in Android switch accessibility functions, and is particularly good for entering text.
+<video style="width:100%" controls>
+  <source src="images/demo.mp4" type="video/mp4" height="534px" width="282px" autoplay loop muted>
+</video>
+
+As long as someone has the ability to physically operate a switch – almost any USB or Bluetooth device with some kind of button on it will do – then they can use it to completely control their device, including browsing the web and sending messages. Switchboard is simpler and faster to use than the built in Android switch accessibility functions, and is particularly good for entering text.
 
 It can be used with a single switch (auto-scan), two switches (manual scan) or even more (extra switches can be configured to back, home, scroll up and scroll down). It's been tested mostly with single-switch operation so far, for use by the most impaired users where every switch press counts.
 
 The live app on the Play store can be installed [here](https://play.google.com/store/apps/details?id=ug.air.switchaccess&hl=en).
+
+![](images/google-play-badge.svg?raw=true)
 
 ### What are the limitations?
 
