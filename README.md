@@ -18,4 +18,4 @@ The standard Android switch access is functional, but can be a bit clumsy—espe
 
 ### What hardware is needed to use it?
 
-You can test this out with no special hardware at all, e.g. using the volume control buttons on the device, or the clicker on a pair of earphones; anything which Android recognises as having a key that can be pressed will usually work. For best results, use a switch which is comfortable for you. Switchboard has been tested with several USB and Bluetooth switches, buttons, keyboards and foot pedals; even the clicker on a set of earphones can often be recognised by the app and used as a switch for complete device control.
+You can test this out with no special hardware at all, e.g. using the volume control buttons on the device; anything which Android recognises as having a key that can be pressed will usually work. For best results, use a switch which is comfortable for you. Switchboard has been tested with several USB and Bluetooth switches, buttons, keyboards and foot pedals; even the clicker on a set of earphones can often be recognised by the app and used as a switch for complete device control.
