@@ -1,5 +1,5 @@
-<a href="https://f-droid.org/repository/browse/?fdid=com.github.yeriomin.yalpstore" target="_blank">
-  <img src="https://f-droid.org/badge/get-it-on.png" height="80"/>
+<a href="https://play.google.com/store/apps/details?id=ug.air.switchaccess" target="_blank">
+  <img src="https://jqug.github.io/switchboard/images/google-play-badge.png" height="80"/>
 </a>
 
 Switchboard is an accessibility app for Android that allows users with a physical disability, motor impairment or limited dexterity to control their device with one or more switches.
