@@ -10,7 +10,7 @@ It can be used with a single switch (auto-scan), two switches (manual scan) or e
 
 The live app on the Play store can be installed [here](https://play.google.com/store/apps/details?id=ug.air.switchaccess&hl=en).
 
-[![Switchboard on the Play store.](images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=ug.air.switchaccess)
+[![Switchboard on the Play store.](images/google-play-badge.svg?raw=true)](https://play.google.com/store/apps/details?id=ug.air.switchaccess)
 
 ### What are the limitations?
 
