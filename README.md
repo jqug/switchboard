@@ -4,6 +4,8 @@ Switchboard is for Android users with a physical disability, motor impairment or
 
 It can be used with a single switch (auto-scan), two switches (manual scan) or even more (extra switches can be configured to back, home, scroll up and scroll down). It's been tested mostly with single-switch operation so far, for use by the most impaired users where every switch press counts.
 
+The live app on the Play store can be installed [here](https://play.google.com/store/apps/details?id=ug.air.switchaccess&hl=en).
+
 ### What are the limitations?
 
 * Android doesn’t currently allow accessibility services to click on everything.
